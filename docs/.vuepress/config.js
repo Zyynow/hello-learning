@@ -23,31 +23,31 @@ module.exports = {
         path: '/data-structures/Data Structures.md',   
         children: [ 
           {
-            text: 'Arrays',
+            title: 'Arrays',
             link: '/data-structures/Arrays.md',
           },
           {
-            text: 'Linked Lists',
+            title: 'Linked Lists',
             link: '/data-structures/Linked List.md',
           },
           {
-            text: 'Queue',
+            title: 'Queue',
             link: '/data-structures/Queues.md',
           },
           {
-            text: 'Stacks',
+            title: 'Stacks',
             link: '/data-structures/Stacks.md',
           },
           {
-            text: 'Trees',
+            title: 'Trees',
             link: '/data-structures/Trees.md',
           },
           {
-            text: 'Hash Tables',
+            title: 'Hash Tables',
             link: '/data-structures/Hash Tables.md',
           },
           {
-            text: 'Graphs',
+            title: 'Graphs',
             link: 'docs/data-structures/Graphs.md',
           },
 
