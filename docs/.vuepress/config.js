@@ -17,46 +17,58 @@ module.exports = {
         ]
       }
     ],
-    sidebar: [
-      {
-        title: 'Data Structures',   // 必要的
-        path: '/data-structures/Data Structures.md',   
-        children: [ 
-          {
-            title: 'Arrays',
-            path: '/data-structures/Arrays.md',
-          },
-          {
-            title: 'Linked Lists',
-            path: '/data-structures/Linked List.md',
-          },
-          {
-            title: 'Queue',
-            path: '/data-structures/Queues.md',
-          },
-          {
-            title: 'Stacks',
-            path: '/data-structures/Stacks.md',
-          },
-          {
-            title: 'Trees',
-            path: '/data-structures/Trees.md',
-          },
-          {
-            title: 'Hash Tables',
-            path: '/data-structures/Hash Tables.md',
-          },
-          {
-            title: 'Graphs',
-            path: 'docs/data-structures/Graphs.md',
-          },
+    sidebar: {
+      '/data-structures/': [
+        '',     /* /foo/ */
+        'Arrays',  /* /foo/one.html */
+        'Linked Lists',   /* /foo/two.html */
+        'Queues',
+        'Stacks', 
+        'Trees',
+        'Hash Tables',
+        'Graphs',
+      ],
+    }
 
-         ],
-      },
-      {
-        title: 'Group 2',
-      },
-    ],
+      // {
+      //   title: 'Data Structures',   // 必要的
+      //   path: '/data-structures/Data Structures.md',   
+      //   children: [ 
+      //     {
+      //       title: 'Arrays',
+      //       path: '/data-structures/Arrays.md',
+      //     },
+      //     {
+      //       title: 'Linked Lists',
+      //       path: '/data-structures/Linked List.md',
+      //     },
+      //     {
+      //       title: 'Queues',
+      //       path: '/data-structures/Queues.md',
+      //     },
+      //     {
+      //       title: 'Stacks',
+      //       path: '/data-structures/Stacks.md',
+      //     },
+      //     {
+      //       title: 'Trees',
+      //       path: '/data-structures/Trees.md',
+      //     },
+      //     {
+      //       title: 'Hash Tables',
+      //       path: '/data-structures/Hash Tables.md',
+      //     },
+      //     {
+      //       title: 'Graphs',
+      //       path: 'docs/data-structures/Graphs.md',
+      //     },
+
+      //    ],
+      // },
+      // {
+      //   title: 'Group 2',
+      // },
+    
   }
   
 }
