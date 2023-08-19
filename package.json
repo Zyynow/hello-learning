@@ -5,11 +5,12 @@
   "repository": "https://github.com/Zyynow/hello-learning.git",
   "author": "Zyynow <zdnow@outlook.com>",
   "license": "MIT",
-   "scripts": {
+  "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.10",
     "vuepress": "^1.9.10"
   }
 }
