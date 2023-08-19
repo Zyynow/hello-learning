@@ -13,9 +13,9 @@ module.exports = {
         ariaLabel: 'Language Menu',
         items: [
           { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' }
-        ]
-      }
+          { text: 'Japanese', link: '/language/japanese/' },
+        ],
+      },
     ],
     // sidebar: {
     //   '/data-structures/': [
@@ -32,7 +32,7 @@ module.exports = {
     sideBar:[
       {
         title: 'Data Structures',   // 必要的
-        path: '/data-structures/Data Structures.md',   
+        path: '/',   
         // children: [ 
         //   {
         //     title: 'Arrays',
