@@ -20,7 +20,7 @@ module.exports = {
     sidebar: [
       {
         title: 'Group 1',   // 必要的
-        path: '/data-structures/Data Structures.md',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        path: '/data-structures/DataStructures.md',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
