@@ -19,8 +19,8 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Group 1',   // 必要的
-        path: '/ds/ds.md',   
+        title: 'Data Structures',   // 必要的
+        path: '/data-structures/Data Structures.md',   
       },
       {
         title: 'Group 2',
