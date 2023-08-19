@@ -32,19 +32,19 @@ module.exports = {
           },
           {
             text: 'Queue',
-            link: 'docs/data-structures/Queues.md',
+            link: '/data-structures/Queues.md',
           },
           {
             text: 'Stacks',
-            link: 'docs/data-structures/Stacks.md',
+            link: '/data-structures/Stacks.md',
           },
           {
             text: 'Trees',
-            link: 'docs/data-structures/Trees.md',
+            link: '/data-structures/Trees.md',
           },
           {
             text: 'Hash Tables',
-            link: 'docs/data-structures/Hash Tables.md',
+            link: '/data-structures/Hash Tables.md',
           },
           {
             text: 'Graphs',
