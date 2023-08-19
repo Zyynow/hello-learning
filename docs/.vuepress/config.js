@@ -17,6 +17,23 @@ module.exports = {
         ],
       },
     ],
+    sidebar: [
+      {
+        title: 'Group 1',   // 必要的
+        path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          '/'
+        ]
+      },
+      {
+        title: 'Group 2',
+        children: [ /* ... */ ],
+        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
+      }
+    ],
+
     // sidebar: {
     //   '/data-structures/': [
     //     '',     /* /foo/ */
@@ -29,46 +46,46 @@ module.exports = {
     //     'Graphs',
     //   ],
     // }
-    sideBar:[
-      {
-        title: 'Data Structures',   // 必要的
-        path: '/',   
-        // children: [ 
-        //   {
-        //     title: 'Arrays',
-        //     path: '/data-structures/Arrays.md',
-        //   },
-        //   {
-        //     title: 'Linked Lists',
-        //     path: '/data-structures/Linked List.md',
-        //   },
-        //   {
-        //     title: 'Queues',
-        //     path: '/data-structures/Queues.md',
-        //   },
-        //   {
-        //     title: 'Stacks',
-        //     path: '/data-structures/Stacks.md',
-        //   },
-        //   {
-        //     title: 'Trees',
-        //     path: '/data-structures/Trees.md',
-        //   },
-        //   {
-        //     title: 'Hash Tables',
-        //     path: '/data-structures/Hash Tables.md',
-        //   },
-        //   {
-        //     title: 'Graphs',
-        //     path: 'docs/data-structures/Graphs.md',
-        //   },
+    // sideBar:[
+    //   {
+    //     title: 'Data Structures',   // 必要的
+    //     path: '/',   
+    //     // children: [ 
+    //     //   {
+    //     //     title: 'Arrays',
+    //     //     path: '/data-structures/Arrays.md',
+    //     //   },
+    //     //   {
+    //     //     title: 'Linked Lists',
+    //     //     path: '/data-structures/Linked List.md',
+    //     //   },
+    //     //   {
+    //     //     title: 'Queues',
+    //     //     path: '/data-structures/Queues.md',
+    //     //   },
+    //     //   {
+    //     //     title: 'Stacks',
+    //     //     path: '/data-structures/Stacks.md',
+    //     //   },
+    //     //   {
+    //     //     title: 'Trees',
+    //     //     path: '/data-structures/Trees.md',
+    //     //   },
+    //     //   {
+    //     //     title: 'Hash Tables',
+    //     //     path: '/data-structures/Hash Tables.md',
+    //     //   },
+    //     //   {
+    //     //     title: 'Graphs',
+    //     //     path: 'docs/data-structures/Graphs.md',
+    //     //   },
 
-        //  ],
-      },
-      {
-        title: 'Group 2',
-      },
-    ],
-  },
-  
+    //     //  ],
+    //   },
+    //   {
+    //     title: 'Group 2',
+    //   },
+    // ],
+  // },
+  }
 }
