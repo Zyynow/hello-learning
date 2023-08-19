@@ -55,7 +55,7 @@ module.exports = {
       },
       {
         title: 'Group 2',
-      }
+      },
     ],
   }
   
