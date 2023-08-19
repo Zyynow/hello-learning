@@ -14,7 +14,7 @@ Connect Nodes - Graph
 
 ```
 
-![Untitled](hello-learning/Untitled.png)
+![Untitled](/hello-learning/Untitled.png)
 
 1. **Arrays**
     - An array is a collection of elements, each identified by an array index. It is the simplest data structure and is used for storing data of the same type.
