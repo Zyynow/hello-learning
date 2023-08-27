@@ -21,7 +21,7 @@ module.exports = {
     sideBar:[
       {
         title: 'Data Structures',   // 必要的
-        path: '/data/',   
+        path: '/data-structures/',   
         children: [ 
           {
             title: 'Arrays',
@@ -52,11 +52,8 @@ module.exports = {
             path: 'docs/data-structures/Graphs.md',
           },
 
-         ],
-      },
-      {
-        title: 'Group 2',
-      },
-    ],
-  },
+         ]
+      }
+    ]
+  }
 }
